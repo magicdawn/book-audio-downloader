@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "lushang": "lib/auto-learning/cli.js"
+  },
   "scripts": {
     "test": "mocha",
     "test-cover": "nyc --reporter=lcov --reporter=text mocha",
@@ -12,14 +15,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@magicdawn/rp": "^0.1.0",
+    "audioconcat": "^0.1.3",
+    "debug": "^4.1.1",
     "dl-vampire": "^0.0.3",
     "filenamify": "^4.1.0",
+    "fs-extra": "^8.0.1",
+    "humanize-duration": "^3.18.0",
     "lodash": "^4.17.11",
     "log-reject-error": "^0.0.2",
     "log-symbols": "^3.0.0",
+    "mime": "^2.4.4",
     "promise.map": "^0.0.2",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise": "^4.2.4",
+    "yargs": "^13.2.4"
   },
   "devDependencies": {
     "codecov": "^3.3.0",
