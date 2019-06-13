@@ -1,0 +1,46 @@
+{
+  "name": "book-audio-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cover": "nyc --reporter=lcov --reporter=text mocha",
+    "report-cover": "codecov"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dl-vampire": "^0.0.3",
+    "filenamify": "^4.1.0",
+    "lodash": "^4.17.11",
+    "log-reject-error": "^0.0.2",
+    "log-symbols": "^3.0.0",
+    "promise.map": "^0.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "codecov": "^3.3.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-magicdawn": "^0.0.5",
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0",
+    "should": "^13.2.3",
+    "husky": "latest",
+    "prettier": "latest",
+    "lint-staged": "latest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,less,vue}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
