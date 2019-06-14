@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "lushang": "lib/auto-learning/cli.js"
+    "lushang": "lib/auto-learning/cli.js",
+    "fandeng": "lib/fandeng/cli.js"
   },
   "scripts": {
     "test": "mocha",
@@ -26,6 +27,7 @@
     "log-reject-error": "^0.0.2",
     "log-symbols": "^3.0.0",
     "mime": "^2.4.4",
+    "moment": "^2.24.0",
     "promise.map": "^0.0.2",
     "promise.retry": "^0.2.0",
     "request": "^2.88.0",
