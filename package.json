@@ -26,6 +26,7 @@
     "lodash": "^4.17.11",
     "log-reject-error": "^0.0.2",
     "log-symbols": "^3.0.0",
+    "m3u8": "^0.0.8",
     "mime": "^2.4.4",
     "moment": "^2.24.0",
     "promise.map": "^0.0.2",
