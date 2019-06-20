@@ -1,0 +1,15 @@
+# 左栏列表
+GET /v3/xcx/all-type-list
+
+## 精选书单
+https://apis.auto-learning.com/v3/xcx/book-list
+
+sessionId=1809308%2Cd1a474a8-de07-4a6f-b74e-b1ccd27863b6&pageIndex=0&listType=2&orderBy=1
+获取书单列表, 根据 listId, 下载 list
+
+## 系列连载
+sessionId=1809308%2Cd1a474a8-de07-4a6f-b74e-b1ccd27863b6&pageIndex=0&listType=4&orderBy=1
+获取书单列表, 根据 listId, 下载 list
+
+## 其他类型
+类型arr = all-type-list, listType =0
