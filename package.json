@@ -38,14 +38,16 @@
   },
   "devDependencies": {
     "codecov": "^3.3.0",
-    "eslint": "^5.16.0",
+    "eslint": "latest",
     "eslint-plugin-magicdawn": "^0.0.5",
     "mocha": "^6.1.4",
     "nyc": "^14.0.0",
     "should": "^13.2.3",
     "husky": "latest",
     "prettier": "latest",
-    "lint-staged": "latest"
+    "lint-staged": "latest",
+    "@magicdawn/eslint-config": "^0.0.1",
+    "@magicdawn/prettier-config": "^0.0.1"
   },
   "husky": {
     "hooks": {
